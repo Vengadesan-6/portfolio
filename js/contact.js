@@ -96,7 +96,7 @@ function initCopyEmail() {
   if (!copyBtn) return;
 
   copyBtn.addEventListener('click', () => {
-    const email = 'hello@marcuschen.design';
+    const email = 'spvengathari@gmail.com';
     navigator.clipboard.writeText(email).then(() => {
       showToast(`Copied ${email} to clipboard!`);
       if (window.audioFx) window.audioFx.playClick();
